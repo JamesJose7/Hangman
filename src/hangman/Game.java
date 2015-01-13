@@ -61,6 +61,7 @@ public class Game {
 	  public String getAnswer() {
 	    return mAnswer;
 	  }
+	 
 	  
 	  public boolean isSolved() {
 	    return getCurrentProgress().indexOf('_') == -1;

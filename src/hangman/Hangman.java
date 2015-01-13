@@ -10,7 +10,8 @@ public class Hangman {
 		Game game = new Game(args[0]);
 	      Prompter prompter = new Prompter(game);
 	      
-	      prompter.play();
+	     
+	    	  prompter.play();
 	    }
 	
 
